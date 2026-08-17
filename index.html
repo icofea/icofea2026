@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Enter the official ICOFEA 2026 conference website." />
+  <meta name="theme-color" content="#071733" />
+  <title>ICOFEA 2026 | Official Conference Website</title>
+  <link rel="stylesheet" href="landing.css" />
+</head>
+<body>
+  <main class="landing" aria-label="ICOFEA 2026 introduction">
+    <video
+      class="landing-video"
+      id="landing-video"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      poster="assets/icofea-2026-flyer.jpg"
+      aria-label="ICOFEA 2026 montage video">
+      Your browser does not support HTML5 video.
+    </video>
+
+    <div class="landing-gradient" aria-hidden="true"></div>
+
+    <div class="landing-actions">
+      <a class="enter-button" href="home.html" aria-label="Enter the ICOFEA 2026 website">
+        ENTER SITE
+        <span aria-hidden="true">→</span>
+      </a>
+      <button class="sound-button" id="sound-toggle" type="button" aria-pressed="false">
+        Sound on
+      </button>
+    </div>
+
+    <noscript>
+      <div class="noscript-note">
+        JavaScript is disabled. <a href="home.html">Enter the ICOFEA 2026 website</a>.
+      </div>
+    </noscript>
+  </main>
+  <script src="landing.js"></script>
+</body>
+</html>
